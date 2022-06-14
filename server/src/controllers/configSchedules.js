@@ -52,7 +52,11 @@ module.exports = {
   },*/
   
       async load_Schedules (request, response) {
+<<<<<<< HEAD
         const schedule = await Schedule.findAll();
+=======
+        const schedule = await Equipment.findAll();
+>>>>>>> bfdf3e0b2397d92aea67450574767361546c3a76
         
         return response.json(schedule)
       
@@ -62,7 +66,11 @@ module.exports = {
         
         const {id_meeting} = request.params;
       
+<<<<<<< HEAD
         Schedule.destroy({where: {id_meeting}});
+=======
+        Equipment.destroy({where: {id_meeting}});
+>>>>>>> bfdf3e0b2397d92aea67450574767361546c3a76
           
         return response.status(200).json({msg: 'Reunião apagada!'})
            

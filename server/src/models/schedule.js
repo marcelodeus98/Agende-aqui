@@ -49,4 +49,8 @@ Schedule.sync();
 //Verificar se há alguma diferença na tabela, realiza a alteração
 //Schendule.sync({ alter: true , force:true});
 
+<<<<<<< HEAD
 module.exports = Schedule;
+=======
+module.exports = Equipment;
+>>>>>>> bfdf3e0b2397d92aea67450574767361546c3a76
